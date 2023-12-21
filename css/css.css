@@ -1,0 +1,177 @@
+body{
+    color:#614646;
+    background-color:#FFB8B8;
+    font-family:"Lato";
+    font-size:20px;
+}
+
+div{
+    color:#614646;
+}
+
+nav{
+    font-weight:700;
+    font-size:20px;
+    background-color:#FF9191;
+}
+
+.font-color{
+    color:#614646;
+}
+.navbar-brand{
+    font-weight:700;
+    color:#614646;
+    font-family:"Acme";
+}
+
+.navbar-brand:hover{
+    font-weight:700;
+    color:#614646;
+}
+
+.header{
+    font-family:"Acme";
+    text-align: center;
+}
+
+.card{
+    background-color:#FFE0E0;
+    border-color:#FF6F6F;
+    color:#614646;
+}
+
+.btn{
+    border-radius:20px;
+    color:#FFE0E0;
+    background-color:#FF6F6F;
+    border:none;
+}
+
+.btn:hover{
+    background-color:#EE4A4A;
+}
+
+div.card img{
+    border:none;
+    border-radius:0px;
+}
+
+.table{
+    border-color:#FF6F6F;
+}
+
+th{
+    background-color:#FFE0E0 !important;
+    font-family:"Acme" !important;
+    color:#614646 !important;
+}
+
+td{
+    background-color:#FFE0E0 !important;
+    font-family:"Lato" !important;
+    color:#614646 !important;
+}
+
+a{
+    color:#ac3434;
+    border-radius:20px;
+}
+
+a:hover{
+    background-color:#EE4A4A;
+    color:#FFE0E0 !important;
+    border-radius:20px;
+}
+
+.active{
+    color:#FFE0E0 !important;
+    background-color:#FF6F6F;
+    border-radius:20px;
+}
+
+img{
+    border:5px solid #FF6F6F;
+}
+
+video{
+    border:5px solid #FF6F6F;
+}
+
+footer{
+    font-size:20px;
+    font-weight:700;
+    background-color:#FFE0E0;
+}
+
+#carouselExampleCaptions{
+    width:400px;
+    margin:auto;
+}
+
+.list1{
+    background-color:#FFE0E0;
+    border-radius:20px;
+    border:5px solid #FF6F6F;
+}
+
+.list-group-item{
+    background-color:#FFE0E0;
+    border-color:#FF6F6F;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+.fade-in-text{
+    animation: fadeIn 1.5s ease-in-out;
+    animation-fill-mode:forwards;
+    opacity:1;
+}
+
+.carousel-control-prev-icon{
+    background-color:#FF6F6F;
+    border-radius:10px;
+}
+
+.carousel-control-next-icon{
+    background-color:#FF6F6F;
+    border-radius:10px;
+}
+
+
+.icon{
+    background-color:transparent !important;
+}
+
+.icon-style{
+    fill:#FF6F6F !important;
+}
+
+.icon-style:hover{
+    fill:#171515 !important;
+}
+
+audio{
+    border:5px solid #FF6F6F !important;
+    border-radius:30px;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    text-align: left !important;
+}
+
+div{
+    text-align: center;
+}
+
+.left{
+    text-align: left !important;
+}
